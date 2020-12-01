@@ -1,0 +1,420 @@
+@import url('fonts_Bangers.css');
+@import url('fonts_Anton.css');
+@import url('fonts_Ubuntu.css');
+@import url('fonts_Oswald.css');
+
+html, body {
+
+}
+
+/*Thanh menu*/
+.navbar li a {
+
+}
+.navbar {
+	background-color: hsl(0, 90%, 60%) !important;
+	padding: 0px;
+	margin: 0px;
+	height: 50px;
+	border: 0;
+	font-family: 'Oswald';
+}
+
+.navbar .nav-item .nav-link {
+	color: white !important;
+	background-color: hsl(0, 90%, 60%);
+	font-size: 17px;
+	margin-left: 10px;
+	padding: 13px;
+}
+.navbar .nav-item .nav-link:hover {
+	color: hsl(0, 90%, 60%) !important;
+	background-color: white;
+	font-size:17px;
+	margin-left: 10px;
+  padding: 13px;
+}
+.navbar .nav-item:hover .nav-link {
+  color: hsl(0, 90%, 60%) !important;
+  background-color: white;
+}
+
+.dwnr .lst {
+  padding: 0px 10px;
+  position: absolute;
+  display: none;
+}
+.dwnr .lst li {
+  list-style: none;
+  background-color: rgba(360, 0, 0, 0.95);
+  padding: 2px 15px;
+  border-bottom: 1px solid white;
+}
+.dwnr .lst li {
+  color: white;
+  display: block;
+
+}
+.navbar .nav-item:hover .dwnr .lst {
+  display: block;
+}
+.navbar .nav-item .dwnr .lst li:hover {
+
+  background-color:rgba(90%, 100%, 100%, 0.95);
+  color: red;
+}
+.navbar .nav-item .dwnr .lst li:hover {
+
+}
+
+
+
+
+.navbar .box {
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .box i {
+	color: red;
+} 
+
+.navbar .box input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar .box a {
+  color: red;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+}
+
+.navbar .box:hover input {
+  width: 200px;
+  margin: 0 20px;
+  color: red;
+  /*border-bottom: 2px solid black;*/
+}
+
+.navbar .box input:focus {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+
+.navbar .box input::placeholder {
+  color: #F08080;
+  font-family: "Ubuntu";
+}
+/*==========*/
+
+/*Main Top*/
+
+#main_top .container h4 {
+  text-align: left;
+  font-size: 25px;
+  margin: 0px;
+  font-family: "Anton";
+  color: red;
+}
+#main_top .container hr {
+  width: 97%;
+  border: none;
+  height: 2px;
+  background-color: red;
+  margin-top: 2px;
+  margin-right: 20%;
+  margin-bottom: 0px;
+}
+#main_top #TinMoi {
+  float:left;
+  width: 87%;
+}
+
+#TinMoiChinh {
+  margin-top: 1.8%;
+  float:left;
+  width: 65%;
+}
+#TinMoiChinh img {
+  width: 100%;
+  height: 300px;
+  padding: 0px;
+  margin-bottom: 8px;
+}
+#TinMoiChinh h1 {
+  font-size: 16px;
+  font-family: "Arial";
+  text-align: justify;
+}
+#TinMoiChinh h2 {
+  font-size: 13px;
+  font-family: "Arial";
+  text-align: justify;
+}
+#TinMoiChinh .carousel-caption h1 {
+  font-size: 23px;
+  text-shadow: 10px 10px 15px black;
+  font-weight: bold;
+  text-align: center;
+}
+#TinMoiChinh .carousel-caption {
+  padding-bottom: 15px;
+}
+
+
+#TinMoiPhu {
+  width: 30%;
+  height: 300px;
+  float: left;
+  font-family: "Arial";
+  color: black;
+  text-align: justify;
+  margin-left: 2%;
+  margin-top: 1.8%;
+  padding: 0px;
+}
+#TinMoiPhu::-webkit-scrollbar {
+    display: none;
+}
+#TinMoiPhu ul {
+  margin-top: -5px;
+  padding: 0;
+}
+#TinMoiPhu ul li {
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#TinMoiPhu h2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: black;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+
+#menu_phu {
+  float:left;
+  margin-top: 40px;
+  width:13%;
+}
+#menu_phu ul {
+  margin: 0px;
+  padding: 0px;
+}
+#menu_phu ul li {
+  list-style: none;
+  font-size: 15px;
+  font-family: "Arial";
+  padding: 10px 5px 5px 5px;
+}
+#menu_phu i, #menu_phu img {
+  width: 22px;
+  height: 25px;
+}
+sup {
+  color: white;
+  background-image: radial-gradient(circle, red, red 70%, transparent 80%);
+  padding: 2px;
+  font-size: 11px;
+}
+
+/*-----*/
+
+@media (max-width: 1199px)
+{
+    .navbar li a {
+      font-size: 16px;
+    }
+    .navbar li a:hover {
+      font-size: 16px;
+    }
+    .navbar .box {
+      height: 50px;
+    }
+    .navbar .box:hover input {
+        width: 100px;
+    }
+    .navbar .box input:focus {
+        width: 100px;
+    }
+    .navbar .box input {
+        font-size: 12px;
+    }
+    .navbar .box a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    /*Thanh menu*/
+
+      .navbar {
+        height: 30px;
+      }
+      .navbar-branch img {
+        width: 180px;
+        height: 40px;
+      }
+      .navbar li a {
+        font-size: 9px;
+        padding: 13px;
+      }
+/*    #menu_top {
+      height: 40px;
+      margin: 0;
+    }
+    #menu_top a img {
+      width: 170px;
+      height: 30px;
+    }
+    #menu_top li a {
+      font-size: 10px;
+      padding: 18px 8px;
+    }
+
+    #menu_top li a:hover {
+      font-size: 10px;
+    }
+
+    #menu_top .box {
+      height: 40px;
+    }
+    #menu_top .box:hover input {
+        width: 35px;
+    }
+    #menu_top .box input:focus {
+        width: 35px;
+    }
+    #menu_top .box a {
+        font-size: 8px;
+    }
+    #menu_top .box input {
+        font-size: 8px;
+    }*/
+    /*-----*/
+
+    #main_top .container h4 {
+      font-size: 20px;
+    }
+    /*Tin moi*/
+
+    #TinMoiChinh .carousel-inner h1 {
+      font-size: 17px;
+    }
+    #TinMoiChinh .carousel-inner button {
+      font-size: 10px;
+    }
+    #TinMoiChinh img {
+      height: 210px;
+    }
+    /*-----*/
+    /*Tin phu*/
+    #TinMoiPhu {
+      height: 210px;
+    }
+    #TinMoiPhu ul {
+      margin-top: -2px;
+    }
+    #TinMoiPhu h2 {
+      font-size: 10px;
+      margin-top: 0px;
+    }
+    #TinMoiPhu ul li {
+      padding-top: 0;
+      padding-bottom: 0px;
+    }
+    /*=====*/
+
+    /*Menu phu*/
+    #menu_phu {
+      margin-top: 38px;
+    }
+    #menu_phu ul li {
+      font-size: 8px;
+    }
+    #menu_phu i, #menu_phu img {
+      width: 11px;
+      height: 13px;
+    }
+    #menu_phu ul li {
+      padding: 8px 4px 4px 4px;
+    }
+    sup {
+      font-size: 7px;
+    }
+    /*=====*/
+
+}
+
+@media (max-width: 767px)
+{
+    /*Thanh Menu*/
+    #menu_top li {
+      background-color: hsl(0, 90%, 60%) !important;
+    }
+    #menu_top li:hover {
+      background-color: white !important;
+    }
+    #menu_top .box {
+      display: none;
+    }
+    /*=====*/
+
+    #main_top #TinMoi {
+      width: 100%;
+    }
+    #main_top .container h4 {
+      font-size: 15px;
+    }
+    #main_top .container hr {
+      width: 100%;
+    }
+    /*Tin chinh*/
+    #TinMoiChinh {
+      width: 100%;
+    }
+    /*=====*/
+    /*Tin phu*/
+    #TinMoiPhu {
+      width: 100%;
+      float: none;
+    }
+    #TinMoiPhu ul {
+      margin-right: 4%;
+    }    
+    /*=====*/
+    /*Menu phu*/
+    #menu_phu {
+      display: none;
+    }
+    .dwnr {
+      display: none;
+    }
+    /*=====*/
+}
+
+@media (max-width: 575px) 
+{
+
+}
