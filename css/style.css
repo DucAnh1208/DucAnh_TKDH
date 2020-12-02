@@ -8,9 +8,7 @@ html, body {
 }
 
 /*Thanh menu*/
-.navbar li a {
 
-}
 .navbar {
 	background-color: hsl(0, 90%, 60%) !important;
 	padding: 0px;
@@ -19,7 +17,6 @@ html, body {
 	border: 0;
 	font-family: 'Oswald';
 }
-
 .navbar .nav-item .nav-link {
 	color: white !important;
 	background-color: hsl(0, 90%, 60%);
@@ -123,7 +120,6 @@ html, body {
 /*==========*/
 
 /*Main Top*/
-
 #main_top .container h4 {
   text-align: left;
   font-size: 25px;
@@ -237,31 +233,155 @@ sup {
   padding: 2px;
   font-size: 11px;
 }
+/*-----*/
 
+/*Main center*/
+/*Su kien trong tuan*/
+#main_center {
+  clear: left;
+}
+#main_center #SuKienTrongTuan h4 {
+  text-align: left;
+  font-size: 25px;
+  margin: 0px;
+  font-family: "Anton";
+  color: red;
+}
+#main_center #SuKienTrongTuan hr {
+  border: none;
+  height: 2.5px;
+  background-color: red;
+  margin-left: 0px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+#main_center #SuKienTrongTuan {
+  font-size: 11px;
+  font-family: "Arial";
+  color: black;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-top: 15px;
+  width: 25%;
+}
+#main_center #SuKienTrongTuan ul {
+  margin: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  height: 1000px;
+}
+#main_center #SuKienTrongTuan ul::-webkit-scrollbar{
+  display: none;
+}
+#main_center #SuKienTrongTuan ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+#main_center #SuKienTrongTuan img {
+  width: 140px;
+  height: 80px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+#main_center #SuKienTrongTuan h2 {
+  font-size: 13px;
+  font-family: "Arial";
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+/*LTD_BXH*/
+#main_center #LTD_BXH {
+  width: 70%;
+  float: left;
+}
+/*Lịch thi đấu*/
+#main_center #LichThiDau {
+  width: 500px;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0.5%;
+
+}
+#main_center #LichThiDau #TieuDe {
+  color: white;
+  height: 2.5%;
+  background-color: #0000FF !important;
+}
+#main_center #LichThiDau #TieuDe:hover {
+  color: white;
+  height: 2.5%;
+  background-color: #00008B !important;
+}
+#main_center #LichThiDau #Than {
+  height: 500px;
+}
+#main_center #LichThiDau #Than .row {
+  color: black;
+  border-bottom: 1px solid #C0C0C0;
+  margin-left:  1%;
+  margin-right: 1%;
+}
+#main_center #LichThiDau #Than::-webkit-scrollbar {
+  display: none;
+}
+#Doi1 {
+  text-align: right;
+}
+#ThoiGian {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+#Doi2 {
+  text-align: left;
+}
+#KenhTrucTiep img {
+  width: 170%;
+}
+  /*-----*/
 /*-----*/
 
 @media (max-width: 1199px)
 {
-    .navbar li a {
-      font-size: 16px;
+    #menu_top li a {
+      font-size: 14px;
+      padding: 15px;
     }
-    .navbar li a:hover {
-      font-size: 16px;
+    #menu_top li a:hover {
+      font-size: 14px;
     }
     .navbar .box {
       height: 50px;
     }
     .navbar .box:hover input {
-        width: 100px;
+      width: 100px;
     }
     .navbar .box input:focus {
-        width: 100px;
+      width: 100px;
     }
     .navbar .box input {
-        font-size: 12px;
+      font-size: 12px;
     }
     .navbar .box a {
-        font-size: 12px;
+      font-size: 12px;
+    }
+    .dwnr .lst li { 
+      font-size: 14px; 
+    }
+    .dwnr .lst li:hover {
+      font-size: 14px;
     }
 }
 
@@ -269,49 +389,43 @@ sup {
 {
     /*Thanh menu*/
 
-      .navbar {
-        height: 30px;
-      }
-      .navbar-branch img {
-        width: 180px;
-        height: 40px;
-      }
-      .navbar li a {
-        font-size: 9px;
-        padding: 13px;
-      }
-/*    #menu_top {
-      height: 40px;
-      margin: 0;
+    .navbar {
+      height: 35px;
     }
-    #menu_top a img {
+    .navbar a img {
       width: 170px;
       height: 30px;
     }
     #menu_top li a {
-      font-size: 10px;
-      padding: 18px 8px;
+      font-size: 11px;
+      padding: 10px 5px;
     }
 
     #menu_top li a:hover {
-      font-size: 10px;
+      font-size: 11px ;
     }
 
-    #menu_top .box {
+    .navbar .box {
       height: 40px;
     }
-    #menu_top .box:hover input {
-        width: 35px;
+    .navbar .box:hover input {
+      width: 35px;
     }
-    #menu_top .box input:focus {
-        width: 35px;
+    .navbar .box input:focus {
+      width: 35px;
     }
-    #menu_top .box a {
+    .navbar .box a {
         font-size: 8px;
     }
-    #menu_top .box input {
+    .navbar .box input {
         font-size: 8px;
-    }*/
+    }
+    .dwnr .lst li { 
+      font-size: 11px; 
+    }
+    .dwnr .lst li:hover {
+      font-size: 11px;
+    }
     /*-----*/
 
     #main_top .container h4 {
@@ -370,6 +484,9 @@ sup {
 @media (max-width: 767px)
 {
     /*Thanh Menu*/
+    .navbar {
+      height: 40px;
+    }
     #menu_top li {
       background-color: hsl(0, 90%, 60%) !important;
     }
